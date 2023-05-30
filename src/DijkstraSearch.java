@@ -3,7 +3,7 @@ public class DijkstraSearch<V> extends Search<V> {
     private Map<Vertex<V>, Double> distance;
     private Map<Vertex<V>, Vertex<V>> previous;
 
-    // Initialize object with a given graph
+    // Initialize object with a given grap
     public DijkstraSearch(WeightedGraph<V> graph) {
         super(graph); // Call the constructor of the parent class to initialize the graph
         distance = new HashMap<>(); // Initialize a map to store the distances between ver
